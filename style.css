@@ -1,0 +1,246 @@
+body{
+    margin:auto;
+    padding: 0%;
+    background-color: #fff1dc;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+   
+}
+
+
+.flex-container > div{
+    /* height: 500px; */
+    width:40%;
+    /* border: 2px solid red; */
+
+}
+
+.logo-section{
+    border: 1px solid gray;
+    height: 150px;
+    width:100%;
+    margin-top:15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.logo-section > .logo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.desc-section{
+    /* border: 2px solid black; */
+    height: 200px;
+    width:100%;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-top:20px solid #fdb850;
+}
+
+.desc-section > .desc-heading{
+    font-size: 25px;
+    margin-left:20px;
+    font-weight: bold;
+}
+
+.desc-section > span{
+    display: block;
+    margin-left: 20px;
+}
+
+.desc-section > .desc-email{
+    /* border: 2px solid red; */
+    padding: 10px 10px 10px 20px;
+    box-sizing: border-box;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+
+}
+
+
+.form-section{
+    border: 1px solid gray;
+    height: 150px;
+    width:100%;
+    margin-top:15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.form-section > label{
+    display: block;
+    margin-top:20px;
+    font-size: 18px;
+    margin-left: 20px;
+
+}
+
+.form-section > input{
+    margin-top:30px;
+    font-size: 16px;
+    margin-left: 20px;
+    width:50%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;  
+}
+
+
+.form-section > select{
+    margin-top:20px;
+    font-size: 16px;
+    margin-left: 20px;
+    width:50%;
+    height: 40px;
+    font-size: 18px;
+    border-bottom: 1px solid gray;  
+}
+
+.form-section > input[type="submit"]{
+    background-color: #cd5b00;
+    height: 40px;
+    width:150px;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-section > span{
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: red;
+}
+
+
+.rating-section{
+    /* border: 2px solid blue; */
+    border: 1px solid gray;
+    height: 150px;
+    width:100%;
+    margin-top:15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.rating-section > label{
+    display: block;
+    margin-top:20px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.rating-section > div{
+    /* border: 2px solid yellow; */
+    margin-left:20px;
+    font-size: 22px;
+    margin-top:30px;
+}
+
+.rating-section > span{
+    display: block;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: red;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        /* background-color: aqua; */
+        margin:auto;
+        padding: 0%;
+
+    }
+
+
+    
+    .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+       
+    }
+    
+    
+    .flex-container > div{
+        /* height: 500px; */
+        width:95%;
+        /* border: 2px solid red; */
+    
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 800px) and (min-width: 600px){
+    body{
+        /* background-color: gray; */
+        margin:auto;
+        padding: 0%;
+
+    }
+
+
+    
+    .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+       
+    }
+    
+    
+    .flex-container > div{
+        /* height: 500px; */
+        width:70%;
+        /* border: 2px solid red; */
+    
+    }
+    
+    
+}
+
+
+
+@media screen and (max-width: 1200px) and (min-width: 800px){
+    body{
+        /* background-color: blueviolet; */
+        margin:auto;
+        padding: 0%;
+
+    }
+
+
+    
+    .flex-container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+       
+    }
+    
+    
+    .flex-container > div{
+        /* height: 500px; */
+        width:55%;
+        /* border: 2px solid red; */
+    
+    }
+    
+    
+}
+
+
+

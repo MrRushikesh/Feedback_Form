@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Eduonix Registration Form</title>
+        <link rel="stylesheet" href="./style.css" type="text/css">
+    </head>
+    <body>
+        <div class="flex-container">
+           <div class="container">
+               <div class="logo-section">
+                    <p class="logo">Eduonix</p>
+               </div>
+               <div class="desc-section">
+                    <p class="desc-heading">Live Online Full Stack - Feedback Form</p>
+                    <span class="desc-msg1">Hello Learner!!</span>
+                    <span class="desc-msg2">Hope you are doing great in the world of Full stack development.</span>
+                    <span class="desc-msg3">Please let us know your feedback by filling this form.</span>
+                    <p class="desc-email">rushikeshingale7447@gmail.com</p>    
+               </div>
+
+               <form action="demo.php" method="GET" id="registrationForm">
+
+                    <div class="form-section">
+                        <label for="email">Email </label>
+                        <input type="email" id="email" name="email" placeholder="Your email address">
+                        <span id="emailError"></span>
+                    </div>
+
+                    <div class="form-section">
+                        <label for="fname">Name </label>
+                        <input type="text" id="fname" name="fname" placeholder="Your name">
+                        <span id="fnameError"></span>
+                    </div>
+
+                    <div class="form-section">
+                        <label for="sdetails">Session Details </label>
+                        <select id="sdetails" name="sdetails">
+                            <option value="">Choose</option>
+                            <option value="html">HTML</option>
+                            <option value="git">Git</option>
+                            <option value="css">CSS</option>
+                            <option value="js">JavaScript</option>
+                        </select>
+                        <span id="sdetailsError"></span>
+                    </div>
+
+                    <div class="form-section">
+                        <label for="sfeedback">How was today's session? </label>
+                        <input type="text" id="sfeedback" name="sfeedback" placeholder="Your answer">
+                        <span id="sfeedbackError"></span>
+                    </div>
+
+                    <div class="rating-section">
+                        <label for="srating">How would you rate your overall experience?</label>
+                        <div>
+                            <input type="radio" id="one" name="rating" value="1"><label for="one">1</label>
+                            <input type="radio" id="two" name="rating" value="2"><label for="two">2</label>
+                            <input type="radio" id="one" name="rating" value="3"><label for="three">3</label>
+                            <input type="radio" id="one" name="rating" value="4"><label for="four">4</label>
+                            <input type="radio" id="one" name="rating" value="5"><label for="five">5</label>
+                        </div>
+                        <span id="sratingError"></span>
+                    </div>
+
+                    <div class="rating-section">
+                        <label for="topic-rating">Were all the concepts/topics covered well?</label>
+                        <div>
+                            <input type="radio" id="one" name="topic-rating" value="1"><label for="one">1</label>
+                            <input type="radio" id="two" name="topic-rating" value="2"><label for="two">2</label>
+                            <input type="radio" id="one" name="topic-rating" value="3"><label for="three">3</label>
+                            <input type="radio" id="one" name="topic-rating" value="4"><label for="four">4</label>
+                            <input type="radio" id="one" name="topic-rating" value="5"><label for="five">5</label>
+                        </div>
+                        <span id="topicratingError"></span>
+                    </div>
+
+                    <div class="rating-section">
+                        <label for="trainer-rating">How would you rate the trainer?</label>
+                        <div>
+                            <input type="radio" id="one" name="trainer-rating" value="1"><label for="one">1</label>
+                            <input type="radio" id="two" name="trainer-rating" value="2"><label for="two">2</label>
+                            <input type="radio" id="one" name="trainer-rating" value="3"><label for="three">3</label>
+                            <input type="radio" id="one" name="trainer-rating" value="4"><label for="four">4</label>
+                            <input type="radio" id="one" name="trainer-rating" value="5"><label for="five">5</label>
+                        </div>
+                        <span id="trainerRatingError"></span>
+                    </div>
+
+
+                    <div class="form-section">
+                        <label for="suggestion">Any suggestions to improve the overall experience?</label>
+                        <input type="text" id="suggestion" name="suggestion" placeholder="Your answer">
+                        <span id="suggestionError"></span>
+                    </div>
+
+                    <div class="form-section">
+                        <label for="testimonial">A small testimonial/Thank you note/Message for the Instructor</label>
+                        <input type="text" id="testimonial" name="suggestion" placeholder="Your answer">
+                        <span id="testimonialError"></span>
+                    </div>
+
+
+
+
+
+
+                    <div class="form-section">
+                        <label for="sdetails">Click Here -: </label>
+                        <input type="submit" value="Submit">
+                    </div>
+
+                    
+                   
+
+               </form>
+               
+           </div>
+          
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
