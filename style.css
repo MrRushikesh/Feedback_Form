@@ -154,6 +154,8 @@ body{
 }
 
 
+
+
 @media screen and (max-width: 600px) {
     body{
         /* background-color: aqua; */
@@ -178,7 +180,77 @@ body{
         /* border: 2px solid red; */
     
     }
+
+
     
+.logo-section{
+    border: 1px solid gray;
+    height: 150px;
+    width:100%;
+    margin-top:15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.logo-section > .logo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+.desc-section{
+    /* border: 2px solid black; */
+    height: 300px;
+    width:100%;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-top:20px solid #fdb850;
+}
+
+
+
+
+
+.form-section{
+    border: 1px solid gray;
+    height: 160px;
+    width:100%;
+    margin-top:15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+
+
+.form-section > span{
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: red;
+}
+
+    
+
+.rating-section{
+    /* border: 2px solid blue; */
+    border: 1px solid gray;
+    height: 160px;
+    width:100%;
+    margin-top:15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.rating-section > span{
+    display: block;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: red;
+
+}
+
     
 }
 
