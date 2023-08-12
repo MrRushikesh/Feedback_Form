@@ -33,6 +33,12 @@ body{
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
+    display: block;
+    margin-left: 23%;
+    /* border: 2px solid red; */
+    margin-top: 25px;
+    height: 60%;
+    width:50%;
 }
 
 

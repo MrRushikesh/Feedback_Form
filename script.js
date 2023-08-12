@@ -10,7 +10,7 @@ document.getElementById('registrationForm').addEventListener("submit",function(e
     var sfeedback = document.getElementById('sfeedback').value;
     var srating = document.querySelector('input[name="rating"]:checked');
     var topicRating = document.querySelector('input[name="topic-rating"]:checked'); 
-    var trainerRating = document.querySelector('input[name="trainer-rating]:checked');
+    var trainerRating = document.querySelector('input[name="trainer-rating"]:checked');
     var suggestion = document.getElementById('suggestion').value;
     var testtimonial = document.getElementById('testimonial').value;
 
